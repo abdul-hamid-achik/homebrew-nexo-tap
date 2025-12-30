@@ -14,22 +14,22 @@ cask "fuego-cli" do
   on_macos do
     on_intel do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_darwin_amd64.tar.gz"
-      sha256 "fe8ccf1375d4f95cfc9a0231650014821daeeaf2f8ed88f3523d462142c8e904"
+      sha256 "ffd5f2d023c7ae669329ed9bf0eaeb176ca11ceac8fc07111669ffc797cc8d36"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_darwin_arm64.tar.gz"
-      sha256 "4bf675d0f0814462b0af2363fa93ffde5e3562af8f60ac4077059db83b707f56"
+      sha256 "ad90ffedad01250adde45a2baf3f3c26fa9e328e94e8411461801596c4577770"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_linux_amd64.tar.gz"
-      sha256 "fe43502a2b8a6af0b5649e8b61d1ac86f556819594eab441ba88dd287f335136"
+      sha256 "559289e5eceb46f778e60d84cff6388d027a2d17ba05280070214ed4e3c6f6d8"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_linux_arm64.tar.gz"
-      sha256 "19b32493996b29db38140751495bd0eb89e02606f568d4c9afcd240dba89012c"
+      sha256 "3ea00baf114cdd33ed2b5f4f0b9968b2afbb3e9877ca2edafaf7676a590d6347"
     end
   end
 
