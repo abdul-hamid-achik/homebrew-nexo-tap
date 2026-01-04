@@ -3,7 +3,7 @@ cask "fuego-cli" do
   name "fuego-cli"
   desc "A file-system based Go framework for APIs and websites"
   homepage "https://github.com/abdul-hamid-achik/fuego"
-  version "0.11.2"
+  version "0.11.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fuego-cli" do
   on_macos do
     on_intel do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_darwin_amd64.tar.gz"
-      sha256 "cbbdb303327dd1e608440104adbea88fb3170605b86a985aa60a87705a566c87"
+      sha256 "c2796fabef481415c3664ca5b352a761c6ae824e9ffd13c149e5c87294c776ed"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_darwin_arm64.tar.gz"
-      sha256 "8b6bfb7250d41f86ce6d73a240ef7de00ab261ebb0fe5bb5ebd93cec3fde5fb6"
+      sha256 "8bfeb63f0b59de34e79958a7004bcde1ec36a9b87502abc6a28e28ea3ea2a3f0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_linux_amd64.tar.gz"
-      sha256 "9a50bb3a5d6e4d307062e09d92fa0fcad2091c589c3f2b09f208762ca3d04bf6"
+      sha256 "45e5233f4ce74c4e972d0bfddf593213a30443a5d42be3c5f9275d138f5819f1"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/fuego/releases/download/v#{version}/fuego_#{version}_linux_arm64.tar.gz"
-      sha256 "1ed3019d01e0c0b8c75e90376fadc56fc6bf2b84c3b9321164bdd45f813c9cc7"
+      sha256 "d593e843e51eebff112ca1ceadeb6e54a3c097dc2da294e3e736932760e20e86"
     end
   end
 
