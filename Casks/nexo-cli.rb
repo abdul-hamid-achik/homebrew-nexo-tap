@@ -3,7 +3,7 @@ cask "nexo-cli" do
   name "nexo-cli"
   desc "A file-system based Go framework for APIs and websites"
   homepage "https://github.com/abdul-hamid-achik/nexo"
-  version "0.11.12"
+  version "0.11.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "nexo-cli" do
   on_macos do
     on_intel do
       url "https://github.com/abdul-hamid-achik/nexo/releases/download/v#{version}/nexo_#{version}_darwin_amd64.tar.gz"
-      sha256 "4134e6c3e1a2274ff3365c22692c6223b8608c62ea05e0b790d68c7b6a6e3418"
+      sha256 "d46e794e741a5ad73c1d1be452f731a888ac9c69c9829505422c23634697e58f"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/nexo/releases/download/v#{version}/nexo_#{version}_darwin_arm64.tar.gz"
-      sha256 "d91be2b6cd26ab2ed8f680fd05b2160ea376cb55fb4c28b8bd49f3c73dc4bef5"
+      sha256 "6bc66a9bad970f3f80642a89b4e94213e7d010bf5aa1b815120f5e075a4afa99"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/abdul-hamid-achik/nexo/releases/download/v#{version}/nexo_#{version}_linux_amd64.tar.gz"
-      sha256 "4deae5476fcd20017d2108acd693c635992777c866eb4baa994becc42292261e"
+      sha256 "78d58f2eb92d83fc2c7ed6e0ac646013d1bf22ed38c1a2d9a1daac33d4ce1c27"
     end
     on_arm do
       url "https://github.com/abdul-hamid-achik/nexo/releases/download/v#{version}/nexo_#{version}_linux_arm64.tar.gz"
-      sha256 "50dd5c2b1e3d104e3c0f025915facc533f8f1383ff56acb6246923c1c1c6821e"
+      sha256 "7569b7cdede3a02c4b19f735a72e0e9e37e96922a838bebb9574ab9e6ad642c5"
     end
   end
 
